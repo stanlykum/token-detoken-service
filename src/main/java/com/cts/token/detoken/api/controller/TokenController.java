@@ -11,6 +11,9 @@ import com.cts.token.detoken.api.domain.Tokenizer;
 import com.cts.token.detoken.api.service.DetokenService;
 import com.cts.token.detoken.api.service.TokenService;
 
+/**
+ * Controller class
+ */
 @RestController
 @RequestMapping("/api/v1")
 public class TokenController {
